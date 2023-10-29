@@ -1,7 +1,6 @@
-const inquirer = require('inquirer');
-const fs = require('fs');
-const generateSVG = require('./generateSVG');
 import inquirer from 'inquirer';
+import fs from 'fs';
+import generateSVG from './generateSVG.mjs';
 
 const questions = [
   {
