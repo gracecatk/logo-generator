@@ -1,6 +1,6 @@
 import inquirer from 'inquirer';
 import fs from 'fs';
-import generateSVG from './generateSVG.mjs';
+import { generateSVG } from './generateSVG.mjs';
 
 const questions = [
   {

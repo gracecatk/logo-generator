@@ -1,4 +1,4 @@
-const generateSVG = require('./generateSVG.jms');
+const generateSVG = require('./generateSVG.mjs');
 
 test('generates SVG content with valid input', () => {
   const input = {
